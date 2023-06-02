@@ -23,20 +23,60 @@ Vitals - Monitor system resources and hardware information in Ubuntu.
 
 Window is Ready - Notification Remover - Disable annoying "Window is Ready" notifications on Ubuntu.
 
-# Terminal:
-### Lolcat
 Lolcat - Add rainbow colors to your terminal output with this fun script.
 
+Tree - Install and utilize the 'tree' command for a visual representation of directory structures.
+
+# Script
 ```
+#!/bin/bash
+
+# Bluetooth Quick Connect
+sudo apt-get install gnome-bluetooth -y
+
+# Blur my Shell
+sudo apt-get install gnome-shell-extension-blur-my-shell -y
+
+# Custom Hot Corners - Extended
+sudo apt-get install gnome-shell-extension-custom-hot-corners -y
+
+# Dash to Panel
+sudo apt-get install gnome-shell-extension-dash-to-panel -y
+
+# Desktop Icons
+sudo apt-get install gnome-shell-extension-desktop-icons -y
+
+# Extension List
+sudo apt-get install gnome-shell-extension-prefs -y
+
+# Impatience
+sudo apt-get install gnome-shell-extension-impatience -y
+
+# OpenWeather
+sudo apt-get install gnome-shell-extension-weather -y
+
+# Screenshot Tool
+sudo apt-get install gnome-screenshot -y
+
+# Ubuntu Appindicators
+sudo apt-get install gnome-shell-extension-appindicator -y
+
+# Vitals
+sudo apt-get install gnome-shell-extension-system-monitor -y
+
+# Window is Ready - Notification Remover
+sudo apt-get install gnome-shell-extension-window-is-ready-notification-remover -y
+
+# Lolcat
 apt-get install ruby
 wget https://github.com/busyloop/lolcat/archive/master.zip
 unzip master.zip
 cd lolcat-master/bin
 gem install lolcat
-```
-### Tree
-Tree - Install and utilize the 'tree' command for a visual representation of directory structures.
 
-```
+# Tree
 sudo apt-get install tree
+
+
+echo "All items downloaded successfully."
 ```

@@ -64,6 +64,9 @@ sudo apt-get install gnome-shell-extension-appindicator -y
 # Vitals
 sudo apt-get install gnome-shell-extension-system-monitor -y
 
+# ArcMenu
+sudo apt-get install gnome-shell-extension-arc-menu -y
+
 # Window is Ready - Notification Remover
 sudo apt-get install gnome-shell-extension-window-is-ready-notification-remover -y
 
